@@ -1,0 +1,4 @@
+#!/bin/sh
+# https://stackoverflow.com/questions/73667/how-can-i-start-an-interactive-console-for-perl
+echo 'This is Interactive Perl shell'
+rlwrap -A -pgreen ./perl-repl.pl
