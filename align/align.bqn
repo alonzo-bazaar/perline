@@ -22,5 +22,5 @@ sl↩>(⌈´≠¨sl)⊸↑¨sl # make split lines rectangular
 # max lengths
 ml←⌈˝≠¨˘sl
 # pad aligned lines
-pal←STW¨ <˘ (⊣∾" "∾⊢)´˘ (ml↑¨⊢)˘ sl
+pal←STW¨ <˘ (⊣∾" | "∾⊢)´˘ (ml↑¨⊢)˘ sl
 •Out¨ pal
